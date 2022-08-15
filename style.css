@@ -1,0 +1,23 @@
+.preloader{
+    top:0;
+    left:0;
+    right:0;
+    height:100%;
+    width: 100%;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    position: fixed;
+    z-index:10000;
+    display: flex;
+}
+
+.preloader img{
+    width:40rem;
+}
+
+.preloader.fade-out{
+  top:110%;
+  opacity: 0;
+}
